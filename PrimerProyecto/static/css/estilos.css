@@ -1,0 +1,16 @@
+.linea {
+  background-color: aqua;
+  display: block;
+  text-transform: uppercase;
+}
+
+.linea li {
+  display: inline;
+  color: blue;
+  margin: 0 20px;
+}
+
+.saludo {
+  background-color: chartreuse;
+  margin: 0 40px;
+}

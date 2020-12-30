@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pase de Parametros</title>
+  </head>
+  <body>
+    <h1>Nombre pasado como parametro: {{nombre|title}}</h1>
+    <h1>D&iacutea: {{fecha.day}} y hora: {{fecha.time}}</h1>
+
+    <ul>
+      {% comment %} Comentario {% endcomment %} {% for auto in lista %} {% if auto == "Ford" %}
+      <li style="color: blue">{{auto|upper}}</li>
+      {% elif auto == "MG" %}
+      <li style="font-size: large; color: red">{{auto}}</li>
+      {% else %}
+      <li>{{auto}}</li>
+      {% endif %} {% endfor %}
+    </ul>
+  </body>
+</html>
